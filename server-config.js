@@ -10,7 +10,7 @@ app.configure(function() {
   app.use(express.static(__dirname + '/public'));
 });
 
-app.get('/artists/:name', util.checkUser, handler.renderIndex);
+app.get('/artists/:name', handler.renderIndex);
 
 
 module.exports = app;

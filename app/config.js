@@ -5,11 +5,11 @@ var db = Bookshelf.initialize({
   client: 'sqlite3',
   connection: {
     host: '127.0.0.1',
-    user: 'your_database_user',
+    user: 'mjsgreen01',
     password: 'password',
-    database: 'shortlydb',
+    database: 'mvpProject',
     charset: 'utf8',
-    filename: path.join(__dirname, '../db/shortly.sqlite')
+    filename: path.join(__dirname, '../db/mvp.sqlite')
   }
 });
 
