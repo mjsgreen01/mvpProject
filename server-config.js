@@ -10,6 +10,8 @@ app.configure(function() {
   app.use(express.static(__dirname + '/public'));
 });
 
+app.get('/', handler.renderIndex);
+
 app.get('/artists/:name', handler.renderIndex);
 
 
