@@ -1,0 +1,15 @@
+{
+  "name": "mvpProject",
+  "version": "0.0.0",
+  "authors": [
+    "mjsgreen01 <mjsgreen01@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
